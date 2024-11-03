@@ -24,11 +24,11 @@ const main = async function () {
     const ipMetadata: IpMetadata = client.ipAsset.generateIpMetadata({
         title: 'Geralt NFT collection',
         description: 'We love gaming',
-        watermarkImg: 'https://picsum.photos/200',
+        watermarkImg: 'https://pbs.twimg.com/profile_images/1804602250930585600/4DLgeqZH_400x400.jpg',
         attributes: [
             {
                 key: 'Rarity',
-                value: 'Legendary',
+                value: 'Epic',
             },
         ],
     })
@@ -39,7 +39,7 @@ const main = async function () {
     const nftMetadata = {
         name: 'GERALT',
         description: 'We love gaming',
-        image: 'https://picsum.photos/200',
+        image: 'https://pbs.twimg.com/profile_images/1804602250930585600/4DLgeqZH_400x400.jpg',
     }
 
     // 4. Upload your IP and NFT Metadata to IPFS
